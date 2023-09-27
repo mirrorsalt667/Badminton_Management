@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B50279A02AC3FCA800AA4BDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B502799F2AC3FCA800AA4BDB /* AppDelegate.swift */; };
+		B50279A22AC3FCA800AA4BDB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50279A12AC3FCA800AA4BDB /* SceneDelegate.swift */; };
+		B50279A42AC3FCA800AA4BDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50279A32AC3FCA800AA4BDB /* ViewController.swift */; };
+		B50279A72AC3FCA800AA4BDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50279A52AC3FCA800AA4BDB /* Main.storyboard */; };
+		B50279AA2AC3FCA800AA4BDB /* Badminton_Management.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B50279A82AC3FCA800AA4BDB /* Badminton_Management.xcdatamodeld */; };
+		B50279AC2AC3FCAA00AA4BDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B50279AB2AC3FCAA00AA4BDB /* Assets.xcassets */; };
+		B50279AF2AC3FCAA00AA4BDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50279AD2AC3FCAA00AA4BDB /* LaunchScreen.storyboard */; };
+		B50279BA2AC3FCAA00AA4BDB /* Badminton_ManagementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50279B92AC3FCAA00AA4BDB /* Badminton_ManagementTests.swift */; };
+		B50279C42AC3FCAA00AA4BDB /* Badminton_ManagementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50279C32AC3FCAA00AA4BDB /* Badminton_ManagementUITests.swift */; };
+		B50279C62AC3FCAA00AA4BDB /* Badminton_ManagementUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50279C52AC3FCAA00AA4BDB /* Badminton_ManagementUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B50279B62AC3FCAA00AA4BDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B50279942AC3FCA800AA4BDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B502799B2AC3FCA800AA4BDB;
+			remoteInfo = Badminton_Management;
+		};
+		B50279C02AC3FCAA00AA4BDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B50279942AC3FCA800AA4BDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B502799B2AC3FCA800AA4BDB;
+			remoteInfo = Badminton_Management;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B502799C2AC3FCA800AA4BDB /* Badminton_Management.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Badminton_Management.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B502799F2AC3FCA800AA4BDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B50279A12AC3FCA800AA4BDB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B50279A32AC3FCA800AA4BDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B50279A62AC3FCA800AA4BDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B50279A92AC3FCA800AA4BDB /* Badminton_Management.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Badminton_Management.xcdatamodel; sourceTree = "<group>"; };
+		B50279AB2AC3FCAA00AA4BDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B50279AE2AC3FCAA00AA4BDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B50279B02AC3FCAA00AA4BDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B50279B52AC3FCAA00AA4BDB /* Badminton_ManagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Badminton_ManagementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50279B92AC3FCAA00AA4BDB /* Badminton_ManagementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badminton_ManagementTests.swift; sourceTree = "<group>"; };
+		B50279BF2AC3FCAA00AA4BDB /* Badminton_ManagementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Badminton_ManagementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50279C32AC3FCAA00AA4BDB /* Badminton_ManagementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badminton_ManagementUITests.swift; sourceTree = "<group>"; };
+		B50279C52AC3FCAA00AA4BDB /* Badminton_ManagementUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badminton_ManagementUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B50279992AC3FCA800AA4BDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50279B22AC3FCAA00AA4BDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50279BC2AC3FCAA00AA4BDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B50279932AC3FCA800AA4BDB = {
+			isa = PBXGroup;
+			children = (
+				B502799E2AC3FCA800AA4BDB /* Badminton_Management */,
+				B50279B82AC3FCAA00AA4BDB /* Badminton_ManagementTests */,
+				B50279C22AC3FCAA00AA4BDB /* Badminton_ManagementUITests */,
+				B502799D2AC3FCA800AA4BDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B502799D2AC3FCA800AA4BDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B502799C2AC3FCA800AA4BDB /* Badminton_Management.app */,
+				B50279B52AC3FCAA00AA4BDB /* Badminton_ManagementTests.xctest */,
+				B50279BF2AC3FCAA00AA4BDB /* Badminton_ManagementUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B502799E2AC3FCA800AA4BDB /* Badminton_Management */ = {
+			isa = PBXGroup;
+			children = (
+				B502799F2AC3FCA800AA4BDB /* AppDelegate.swift */,
+				B50279A12AC3FCA800AA4BDB /* SceneDelegate.swift */,
+				B50279A32AC3FCA800AA4BDB /* ViewController.swift */,
+				B50279A52AC3FCA800AA4BDB /* Main.storyboard */,
+				B50279AB2AC3FCAA00AA4BDB /* Assets.xcassets */,
+				B50279AD2AC3FCAA00AA4BDB /* LaunchScreen.storyboard */,
+				B50279B02AC3FCAA00AA4BDB /* Info.plist */,
+				B50279A82AC3FCA800AA4BDB /* Badminton_Management.xcdatamodeld */,
+			);
+			path = Badminton_Management;
+			sourceTree = "<group>";
+		};
+		B50279B82AC3FCAA00AA4BDB /* Badminton_ManagementTests */ = {
+			isa = PBXGroup;
+			children = (
+				B50279B92AC3FCAA00AA4BDB /* Badminton_ManagementTests.swift */,
+			);
+			path = Badminton_ManagementTests;
+			sourceTree = "<group>";
+		};
+		B50279C22AC3FCAA00AA4BDB /* Badminton_ManagementUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B50279C32AC3FCAA00AA4BDB /* Badminton_ManagementUITests.swift */,
+				B50279C52AC3FCAA00AA4BDB /* Badminton_ManagementUITestsLaunchTests.swift */,
+			);
+			path = Badminton_ManagementUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B502799B2AC3FCA800AA4BDB /* Badminton_Management */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B50279C92AC3FCAA00AA4BDB /* Build configuration list for PBXNativeTarget "Badminton_Management" */;
+			buildPhases = (
+				B50279982AC3FCA800AA4BDB /* Sources */,
+				B50279992AC3FCA800AA4BDB /* Frameworks */,
+				B502799A2AC3FCA800AA4BDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Badminton_Management;
+			productName = Badminton_Management;
+			productReference = B502799C2AC3FCA800AA4BDB /* Badminton_Management.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B50279B42AC3FCAA00AA4BDB /* Badminton_ManagementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B50279CC2AC3FCAA00AA4BDB /* Build configuration list for PBXNativeTarget "Badminton_ManagementTests" */;
+			buildPhases = (
+				B50279B12AC3FCAA00AA4BDB /* Sources */,
+				B50279B22AC3FCAA00AA4BDB /* Frameworks */,
+				B50279B32AC3FCAA00AA4BDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B50279B72AC3FCAA00AA4BDB /* PBXTargetDependency */,
+			);
+			name = Badminton_ManagementTests;
+			productName = Badminton_ManagementTests;
+			productReference = B50279B52AC3FCAA00AA4BDB /* Badminton_ManagementTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B50279BE2AC3FCAA00AA4BDB /* Badminton_ManagementUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B50279CF2AC3FCAA00AA4BDB /* Build configuration list for PBXNativeTarget "Badminton_ManagementUITests" */;
+			buildPhases = (
+				B50279BB2AC3FCAA00AA4BDB /* Sources */,
+				B50279BC2AC3FCAA00AA4BDB /* Frameworks */,
+				B50279BD2AC3FCAA00AA4BDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B50279C12AC3FCAA00AA4BDB /* PBXTargetDependency */,
+			);
+			name = Badminton_ManagementUITests;
+			productName = Badminton_ManagementUITests;
+			productReference = B50279BF2AC3FCAA00AA4BDB /* Badminton_ManagementUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B50279942AC3FCA800AA4BDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B502799B2AC3FCA800AA4BDB = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					B50279B42AC3FCAA00AA4BDB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = B502799B2AC3FCA800AA4BDB;
+					};
+					B50279BE2AC3FCAA00AA4BDB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = B502799B2AC3FCA800AA4BDB;
+					};
+				};
+			};
+			buildConfigurationList = B50279972AC3FCA800AA4BDB /* Build configuration list for PBXProject "Badminton_Management" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B50279932AC3FCA800AA4BDB;
+			productRefGroup = B502799D2AC3FCA800AA4BDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B502799B2AC3FCA800AA4BDB /* Badminton_Management */,
+				B50279B42AC3FCAA00AA4BDB /* Badminton_ManagementTests */,
+				B50279BE2AC3FCAA00AA4BDB /* Badminton_ManagementUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B502799A2AC3FCA800AA4BDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50279AF2AC3FCAA00AA4BDB /* LaunchScreen.storyboard in Resources */,
+				B50279AC2AC3FCAA00AA4BDB /* Assets.xcassets in Resources */,
+				B50279A72AC3FCA800AA4BDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50279B32AC3FCAA00AA4BDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50279BD2AC3FCAA00AA4BDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B50279982AC3FCA800AA4BDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50279A42AC3FCA800AA4BDB /* ViewController.swift in Sources */,
+				B50279A02AC3FCA800AA4BDB /* AppDelegate.swift in Sources */,
+				B50279A22AC3FCA800AA4BDB /* SceneDelegate.swift in Sources */,
+				B50279AA2AC3FCA800AA4BDB /* Badminton_Management.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50279B12AC3FCAA00AA4BDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50279BA2AC3FCAA00AA4BDB /* Badminton_ManagementTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50279BB2AC3FCAA00AA4BDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50279C62AC3FCAA00AA4BDB /* Badminton_ManagementUITestsLaunchTests.swift in Sources */,
+				B50279C42AC3FCAA00AA4BDB /* Badminton_ManagementUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B50279B72AC3FCAA00AA4BDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B502799B2AC3FCA800AA4BDB /* Badminton_Management */;
+			targetProxy = B50279B62AC3FCAA00AA4BDB /* PBXContainerItemProxy */;
+		};
+		B50279C12AC3FCAA00AA4BDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B502799B2AC3FCA800AA4BDB /* Badminton_Management */;
+			targetProxy = B50279C02AC3FCAA00AA4BDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B50279A52AC3FCA800AA4BDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B50279A62AC3FCA800AA4BDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B50279AD2AC3FCAA00AA4BDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B50279AE2AC3FCAA00AA4BDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B50279C72AC3FCAA00AA4BDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B50279C82AC3FCAA00AA4BDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B50279CA2AC3FCAA00AA4BDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4752TZW2QV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Badminton_Management/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stephen667.Badminton-Management";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B50279CB2AC3FCAA00AA4BDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4752TZW2QV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Badminton_Management/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stephen667.Badminton-Management";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B50279CD2AC3FCAA00AA4BDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4752TZW2QV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stephen667.Badminton-ManagementTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Badminton_Management.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Badminton_Management";
+			};
+			name = Debug;
+		};
+		B50279CE2AC3FCAA00AA4BDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4752TZW2QV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stephen667.Badminton-ManagementTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Badminton_Management.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Badminton_Management";
+			};
+			name = Release;
+		};
+		B50279D02AC3FCAA00AA4BDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4752TZW2QV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stephen667.Badminton-ManagementUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Badminton_Management;
+			};
+			name = Debug;
+		};
+		B50279D12AC3FCAA00AA4BDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4752TZW2QV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stephen667.Badminton-ManagementUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Badminton_Management;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B50279972AC3FCA800AA4BDB /* Build configuration list for PBXProject "Badminton_Management" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50279C72AC3FCAA00AA4BDB /* Debug */,
+				B50279C82AC3FCAA00AA4BDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B50279C92AC3FCAA00AA4BDB /* Build configuration list for PBXNativeTarget "Badminton_Management" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50279CA2AC3FCAA00AA4BDB /* Debug */,
+				B50279CB2AC3FCAA00AA4BDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B50279CC2AC3FCAA00AA4BDB /* Build configuration list for PBXNativeTarget "Badminton_ManagementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50279CD2AC3FCAA00AA4BDB /* Debug */,
+				B50279CE2AC3FCAA00AA4BDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B50279CF2AC3FCAA00AA4BDB /* Build configuration list for PBXNativeTarget "Badminton_ManagementUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50279D02AC3FCAA00AA4BDB /* Debug */,
+				B50279D12AC3FCAA00AA4BDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B50279A82AC3FCA800AA4BDB /* Badminton_Management.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B50279A92AC3FCA800AA4BDB /* Badminton_Management.xcdatamodel */,
+			);
+			currentVersion = B50279A92AC3FCA800AA4BDB /* Badminton_Management.xcdatamodel */;
+			path = Badminton_Management.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B50279942AC3FCA800AA4BDB /* Project object */;
+}
