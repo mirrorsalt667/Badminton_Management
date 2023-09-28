@@ -24,6 +24,7 @@
 		B50279E42AC40EE800AA4BDB /* CustomNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50279E32AC40EE800AA4BDB /* CustomNavigationViewController.swift */; };
 		B50279E72AC4185A00AA4BDB /* OngoingEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50279E62AC4185A00AA4BDB /* OngoingEventViewController.swift */; };
 		B50279E92AC4186100AA4BDB /* OngoingEventViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50279E82AC4186100AA4BDB /* OngoingEventViewController.storyboard */; };
+		B50279EB2AC42AF600AA4BDB /* OngoingEventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50279EA2AC42AF600AA4BDB /* OngoingEventViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		B50279E32AC40EE800AA4BDB /* CustomNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationViewController.swift; sourceTree = "<group>"; };
 		B50279E62AC4185A00AA4BDB /* OngoingEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OngoingEventViewController.swift; sourceTree = "<group>"; };
 		B50279E82AC4186100AA4BDB /* OngoingEventViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OngoingEventViewController.storyboard; sourceTree = "<group>"; };
+		B50279EA2AC42AF600AA4BDB /* OngoingEventViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OngoingEventViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,7 @@
 			children = (
 				B50279E62AC4185A00AA4BDB /* OngoingEventViewController.swift */,
 				B50279E82AC4186100AA4BDB /* OngoingEventViewController.storyboard */,
+				B50279EA2AC42AF600AA4BDB /* OngoingEventViewModel.swift */,
 			);
 			path = "Ongoing Event";
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B50279EB2AC42AF600AA4BDB /* OngoingEventViewModel.swift in Sources */,
 				B50279A02AC3FCA800AA4BDB /* AppDelegate.swift in Sources */,
 				B50279E22AC40E0500AA4BDB /* CustomError.swift in Sources */,
 				B50279E02AC40DDA00AA4BDB /* CoreDataFetchable.swift in Sources */,
